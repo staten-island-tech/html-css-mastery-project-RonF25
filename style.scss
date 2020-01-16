@@ -1,0 +1,16 @@
+html { 
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+.title-screen {
+    background-image: url(img/Dnieper-River.jpg);
+    background-size: cover;
+    height: 100rem;
+    display: flex;
+}
+#title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 9rem;
+    color: white;
+}
