@@ -6,16 +6,35 @@ html {
 
 .title-screen {
   background-image: url(img/Dnieper-River.jpg);
+  width: 100%;
   background-size: cover;
   height: 100rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
 }
 
-#title {
+#title-1 {
   font-family: 'Oswald', sans-serif;
   font-size: 9rem;
   color: white;
+  opacity: 0.85;
+  /*text-shadow: 0px 10px 10px rgba(0, 0, 0, 1.00);*/
+}
+
+#title-2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 7rem;
+  color: white;
+  opacity: 0.85;
+  /*text-shadow: 0px 10px 10px rgba(0, 0, 0, 1.00);*/
 }
 /*# sourceMappingURL=style.css.map */
