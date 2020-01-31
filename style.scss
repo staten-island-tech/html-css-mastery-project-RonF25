@@ -105,10 +105,12 @@ html {
     text-align: center;
     justify-content: center;
     transition: 0.7s all;
+    background-position: center;
 }
 .img-1:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
     z-index: 2;
+    outline: 1rem solid white;
 }
 .img-1:not(:hover) {
     transform: scale(1.0);
@@ -129,7 +131,7 @@ html {
 }
 .words-1-2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     color: white;
     opacity: 0.9;
     flex-direction: column;
@@ -139,6 +141,7 @@ html {
                 2px -2px 0 #000,
                 -2px 2px 0 #000,
                 2px 2px 0 #000;
+    
 }
 .img-1-2 {
     display: flex;
@@ -153,6 +156,17 @@ html {
     flex-direction: column;
     text-align: center;
     justify-content: center; 
+    transition: 0.7s all;
+    background-position: center;
+}
+.img-1-2:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    outline: 1rem solid white;
+}
+.img-1-2:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
 }
 .words-2-1 {
     font-family: 'Oswald', sans-serif;
@@ -169,7 +183,7 @@ html {
 }
 .words-2-2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     color: white;
     opacity: 0.9;
     flex-direction: column;
@@ -182,7 +196,7 @@ html {
 }
 .img-1-3{
     display: flex;
-    background-image: url("img/Odessa.jpg");
+    background-image: url("img/Lviv.jpg");
     height: 50rem;
     width: 30rem;
     align-items: center;
@@ -193,6 +207,17 @@ html {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
+}
+.img-1-3:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    outline: 1rem solid white;
+}
+.img-1-2:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
 }
 .words-3-1 {
     font-family: 'Oswald', sans-serif;
@@ -209,7 +234,7 @@ html {
 }
 .words-3-2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     color: white;
     opacity: 0.9;
     flex-direction: column;
@@ -233,3 +258,42 @@ html {
     transform: scale(.5);
     opacity: 0.3;
 }*/
+
+.content-title-1-1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 8rem;
+    color: white;
+    opacity: 0.90;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+    
+}
+.content-title-2-1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    color: white;
+    opacity: 0.90;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+}
+.img-content-2 {
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s all;
+}
+.words-2-1 {
+
+}
+.words-2-2 {
+
+}
+
+
+
+
+
+
