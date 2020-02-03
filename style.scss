@@ -4,7 +4,7 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
-
+@import"./_colors.scss";
 
 
 
@@ -53,7 +53,7 @@ html {
     text-align: center;
 }
 .back1-1 {
-    background-color: #005BBB;
+    background-color: color(bluebruh);
     height: 100rem;
     width: 100%;
     background-size: cover;
@@ -62,7 +62,7 @@ html {
     text-align: center;
 }
 .back1-2{
-    background-color: #FFD500;
+    background-color: color(yellowbruh);
     height: 100rem;
     width: 100%;
     background-size: cover;
@@ -285,12 +285,82 @@ html {
     justify-content: space-around;
     transition: 0.7s all;
 }
-.words-2-1 {
-
+.img-2 {
+    display: flex;
+    background-image: url("img/Carpathian-Mountains.jpg");
+    height: 50rem;
+    width: 30rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
 }
-.words-2-2 {
-
+.img-2:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    outline: 1rem solid white;
 }
+.img-2:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.img-2-2 {
+    display: flex;
+    background-image: url("img/Dnieper.jpg");
+    height: 50rem;
+    width: 30rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
+}
+.img-2-2:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    outline: 1rem solid white;
+}
+.img-2-2:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.img-2-3 {
+    display: flex;
+    background-image: url("img/Sea-of-Azov.jpg");
+    height: 50rem;
+    width: 30rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
+}
+.img-2-3:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    outline: 1rem solid white;
+}
+.img-2-3:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+
 
 
 
