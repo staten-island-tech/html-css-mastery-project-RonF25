@@ -5,13 +5,23 @@ html {
     box-sizing: border-box;
 }
 @import"./_colors.scss";
+@keyframes slide {
+    0% {
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    /*0%{ right: 100;}
+    100% { right: -100; }*/
+  }
 
 
 
 
 
 .title-screen {
-    background-image: url(img/Dnieper-River.jpg);
+    background-image: url("img/Dnieper-River.jpg");
     width: 100%;
     background-size: cover;
     height: 100rem;
@@ -22,6 +32,12 @@ html {
 }
 #title-1 {
     font-family: 'Oswald', sans-serif;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: ;
+    top: 2rem;
+    right: -60rem;
     font-size: 9rem;
     color: white;
     opacity: 0.90; 
@@ -32,6 +48,12 @@ html {
 }
 #title-2 {
     font-family: 'Oswald', sans-serif;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    top: 2rem;
+    right: -60rem;
     font-size: 7rem;
     color: white;
     opacity: 0.90;
