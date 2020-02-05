@@ -22,7 +22,7 @@ html {
 
 .title-screen {
     background-image: url("img/Dnieper-River.jpg");
-    width: 100%;
+    width: 100vw;
     background-size: cover;
     height: 100rem;
     display: flex;
@@ -33,11 +33,10 @@ html {
 #title-1 {
     font-family: 'Oswald', sans-serif;
     animation-name: slide;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: ;
-    top: 2rem;
-    right: -60rem;
+    animation-fill-mode: forwards;
+    
     font-size: 9rem;
     color: white;
     opacity: 0.90; 
@@ -49,11 +48,9 @@ html {
 #title-2 {
     font-family: 'Oswald', sans-serif;
     animation-name: slide;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    top: 2rem;
-    right: -60rem;
     font-size: 7rem;
     color: white;
     opacity: 0.90;
@@ -66,7 +63,16 @@ html {
 
 
 
-
+@keyframes slide {
+    0% {
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    /*0%{ right: 100;}
+    100% { right: -100; }*/
+  }
 
 .content-1 {
     display: flex;
@@ -454,6 +460,35 @@ html {
     outline: 1rem solid white;
 }
 .img-3-3:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.img-4 {
+    display: flex;
+    background-image: url("img/Plane.webp");
+    height: 50rem;
+    width: 30rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
+    border-radius: 5rem;
+}
+.img-4:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    text-shadow: -10px -10px 0 #fff,
+    10px -10px 0 #fff,
+    -10px 10px 0 #fff,
+    10px 10px 0 #fff;
+}
+.img-4:not(:hover) {
     transform: scale(1.0);
     opacity: 0.9;
 }
