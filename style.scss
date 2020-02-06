@@ -478,15 +478,12 @@ html {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
-    border-radius: 5rem;
+    
 }
 .img-4:hover {
     transform: scale(1.3);
     z-index: 2;
-    text-shadow: -10px -10px 0 #fff,
-    10px -10px 0 #fff,
-    -10px 10px 0 #fff,
-    10px 10px 0 #fff;
+    outline: 1rem solid white;
 }
 .img-4:not(:hover) {
     transform: scale(1.0);
