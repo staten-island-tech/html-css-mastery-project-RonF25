@@ -8,6 +8,7 @@ body {
   margin: 0;  
 }
 @import"./_colors.scss";
+@import"./_varaiables.scss";
 @keyframes slide {
     0% {
         transform: translateX(200px);
@@ -70,6 +71,15 @@ body {
                 2px -2px 0 #000,
                 -2px 2px 0 #000,
                 2px 2px 0 #000;
+    @include laptop {
+        font-size: 6rem;
+    }
+    @include tablet {
+        font-size: 5rem;
+    }
+    @include phone {
+        font-size: 4rem;
+    }
 }
 
 
@@ -119,6 +129,15 @@ body {
                 2px -2px 0 #000,
                 -2px 2px 0 #000,
                 2px 2px 0 #000;
+    @include laptop {
+        font-size: 7rem;
+    }
+    @include tablet {
+        font-size: 6rem;
+    }
+    @include phone {
+        font-size: 5rem;
+    }
     
 }
 .content-title-2 {
@@ -130,6 +149,8 @@ body {
                 2px -2px 0 #000,
                 -2px 2px 0 #000,
                 2px 2px 0 #000;
+                
+
 }
 .img-1 {
     display: flex;

@@ -6,6 +6,10 @@ html {
           box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 @-webkit-keyframes slide {
   0% {
     -webkit-transform: translateX(200px);
@@ -66,6 +70,24 @@ html {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
+@media (max-width: 900px) {
+  #title-1 {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #title-1 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #title-1 {
+    font-size: 6rem;
+  }
+}
+
 #title-2 {
   font-family: 'Oswald', sans-serif;
   -webkit-animation-name: slide;
@@ -80,6 +102,24 @@ html {
   color: white;
   opacity: 0.90;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+@media (max-width: 900px) {
+  #title-2 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #title-2 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #title-2 {
+    font-size: 4rem;
+  }
 }
 
 @keyframes slide {
@@ -144,6 +184,24 @@ html {
   color: white;
   opacity: 0.90;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+@media (max-width: 900px) {
+  .content-title-1 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-title-1 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .content-title-1 {
+    font-size: 5rem;
+  }
 }
 
 .content-title-2 {

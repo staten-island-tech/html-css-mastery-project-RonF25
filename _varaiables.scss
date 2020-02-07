@@ -6,22 +6,22 @@ $phone: 450px;
   @return map-get($colors, $color-name);
 }
 @mixin desktop {
-  @media(min-width:#{$desktop}){
+  @media(max-width:#{$desktop}){
     @content;
   }
 }
 @mixin laptop {
-  @media(min-width:#{$laptop}){
+  @media(max-width:#{$laptop}){
     @content;
   }
 }
 @mixin tablet {
-  @media(min-width:#{$tablet}){
+  @media(max-width:#{$tablet}){
     @content;
   }
 }
 @mixin phone {
-  @media(min-width:#{$phone}){
+  @media(max-width:#{$phone}){
     @content;
   }
 }
