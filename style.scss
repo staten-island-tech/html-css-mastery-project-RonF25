@@ -4,6 +4,9 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
+body {
+  margin: 0;  
+}
 @import"./_colors.scss";
 @keyframes slide {
     0% {
@@ -44,6 +47,15 @@ html {
                  2px -2px 0 #000,
                  -2px 2px 0 #000,
                  2px 2px 0 #000;
+    @include laptop {
+        font-size: 8rem;
+    }
+    @include tablet {
+        font-size: 7rem;
+    }
+    @include phone {
+        font-size: 6rem;
+    }
 }
 #title-2 {
     font-family: 'Oswald', sans-serif;
