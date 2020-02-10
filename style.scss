@@ -167,6 +167,20 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    @include laptop {
+        height: 50rem;
+        width: 30rem;
+    }
+    @include tablet {
+        height: 50rem;
+        width: 25rem;
+        margin: 0.5rem;
+    }
+    @include phone {
+        height: 20rem;
+        width: 100%;
+        margin: 0.5rem;
+    }
 }
 .img-1:hover {
     transform: scale(1.3);
@@ -219,6 +233,20 @@ body {
     justify-content: center; 
     transition: 0.7s all;
     background-position: center;
+    @include laptop {
+        height: 50rem;
+        width: 30rem;
+    }
+    @include tablet {
+        height: 50rem;
+        width: 25rem;
+        margin: 0.5rem;
+    }
+    @include phone {
+        height: 20rem;
+        width: 100%;
+        margin: 0.5rem;
+    }
 }
 .img-1-2:hover {
     transform: scale(1.3);
@@ -270,6 +298,20 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    @include laptop {
+        height: 50rem;
+        width: 30rem;
+    }
+    @include tablet {
+        height: 50rem;
+        width: 25rem;
+        margin: 0.5rem;
+    }
+    @include phone {
+        height: 20rem;
+        width: 100%;
+        margin: 0.5rem;
+    
 }
 .img-1-3:hover {
     transform: scale(1.3);
@@ -310,6 +352,15 @@ body {
     display: flex;
     justify-content: space-around;
     transition: 0.7s all;
+    @include laptop {
+        
+    }
+    @include tablet {
+        
+    }
+    @include phone {
+        flex-direction: column;
+    }
 }
 /*.img-content-1:hover {
     transform: scale(1.3);
@@ -578,7 +629,8 @@ body {
                 -2px 2px 0 #000,
                 2px 2px 0 #000;
     text-decoration: none; 
-  }
+    }
+}
 
 
 
