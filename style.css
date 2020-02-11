@@ -212,6 +212,24 @@ body {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
+@media (max-width: 950px) {
+  .content-title-2 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-title-2 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .content-title-2 {
+    font-size: 3rem;
+  }
+}
+
 .img-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -259,6 +277,10 @@ body {
     height: 20rem;
     width: 100%;
     margin: 0.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -354,6 +376,10 @@ body {
     height: 20rem;
     width: 100%;
     margin: 0.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -427,14 +453,6 @@ body {
   -webkit-transition: 0.7s all;
   transition: 0.7s all;
   background-position: center;
-  /*.img-content-1:hover {
-    transform: scale(1.3);
-    z-index: 2;
-}
-.img-content-1:not(:hover) {
-    transform: scale(.5);
-    opacity: 0.3;
-}*/
 }
 
 @media (max-width: 950px) {
@@ -457,23 +475,48 @@ body {
     height: 20rem;
     width: 100%;
     margin: 0.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
-.img-1-3 .img-1-3:hover {
+@media (max-width: 950px) {
+  height: 50rem;
+  width: 30rem;
+}
+
+@media (max-width: 768px) {
+  height: 50rem;
+  width: 25rem;
+  margin: 0.5rem;
+}
+
+@media (max-width: 375px) {
+  height: 20rem;
+  width: 100%;
+  margin: 0.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.img-1-3:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 2;
   outline: 1rem solid white;
 }
 
-.img-1-3 .img-1-2:not(:hover) {
+.img-1-2:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
 }
 
-.img-1-3 .words-3-1 {
+.words-3-1 {
   font-family: 'Oswald', sans-serif;
   font-size: 5rem;
   color: white;
@@ -489,7 +532,7 @@ body {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
-.img-1-3 .words-3-2 {
+.words-3-2 {
   font-family: 'Oswald', sans-serif;
   font-size: 3rem;
   color: white;
@@ -505,7 +548,7 @@ body {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
-.img-1-3 .img-content-1 {
+.img-content-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -516,7 +559,7 @@ body {
 }
 
 @media (max-width: 375px) {
-  .img-1-3 .img-content-1 {
+  .img-content-1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -524,7 +567,15 @@ body {
   }
 }
 
-.img-1-3 .content-title-1-1 {
+/*.img-content-1:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+.img-content-1:not(:hover) {
+    transform: scale(.5);
+    opacity: 0.3;
+}*/
+.content-title-1-1 {
   font-family: 'Oswald', sans-serif;
   font-size: 8rem;
   color: white;
@@ -532,7 +583,7 @@ body {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
-.img-1-3 .content-title-2-1 {
+.content-title-2-1 {
   font-family: 'Oswald', sans-serif;
   font-size: 6rem;
   color: white;
@@ -540,7 +591,7 @@ body {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
-.img-1-3 .img-content-2 {
+.img-content-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -550,7 +601,7 @@ body {
   transition: 0.7s all;
 }
 
-.img-1-3 .img-2 {
+.img-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -577,20 +628,20 @@ body {
   background-position: center;
 }
 
-.img-1-3 .img-2:hover {
+.img-2:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 2;
   outline: 1rem solid white;
 }
 
-.img-1-3 .img-2:not(:hover) {
+.img-2:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
 }
 
-.img-1-3 .img-2-2 {
+.img-2-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -617,20 +668,20 @@ body {
   background-position: center;
 }
 
-.img-1-3 .img-2-2:hover {
+.img-2-2:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 2;
   outline: 1rem solid white;
 }
 
-.img-1-3 .img-2-2:not(:hover) {
+.img-2-2:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
 }
 
-.img-1-3 .img-2-3 {
+.img-2-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -657,20 +708,20 @@ body {
   background-position: center;
 }
 
-.img-1-3 .img-2-3:hover {
+.img-2-3:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 2;
   outline: 1rem solid white;
 }
 
-.img-1-3 .img-2-3:not(:hover) {
+.img-2-3:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
 }
 
-.img-1-3 .img-3 {
+.img-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -697,20 +748,20 @@ body {
   background-position: center;
 }
 
-.img-1-3 .img-3:hover {
+.img-3:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 2;
   outline: 1rem solid white;
 }
 
-.img-1-3 .img-3:not(:hover) {
+.img-3:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
 }
 
-.img-1-3 .img-3-2 {
+.img-3-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -737,20 +788,20 @@ body {
   background-position: center;
 }
 
-.img-1-3 .img-3-2:hover {
+.img-3-2:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 2;
   outline: 1rem solid white;
 }
 
-.img-1-3 .img-3-2:not(:hover) {
+.img-3-2:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
 }
 
-.img-1-3 .img-3-3 {
+.img-3-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -777,20 +828,20 @@ body {
   background-position: center;
 }
 
-.img-1-3 .img-3-3:hover {
+.img-3-3:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 2;
   outline: 1rem solid white;
 }
 
-.img-1-3 .img-3-3:not(:hover) {
+.img-3-3:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
 }
 
-.img-1-3 .img-4 {
+.img-4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -817,20 +868,20 @@ body {
   background-position: center;
 }
 
-.img-1-3 .img-4:hover {
+.img-4:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 2;
   outline: 1rem solid white;
 }
 
-.img-1-3 .img-4:not(:hover) {
+.img-4:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
 }
 
-.img-1-3 .b-words-1 {
+.b-words-1 {
   font-family: 'Oswald', sans-serif;
   font-size: 6rem;
   color: white;
@@ -838,7 +889,7 @@ body {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
-.img-1-3 .b-words-1:active, .img-1-3 :visited, .img-1-3 :link {
+.b-words-1:active, :visited, :link {
   font-family: 'Oswald', sans-serif;
   font-size: 6rem;
   color: white;
@@ -847,7 +898,7 @@ body {
   text-decoration: none;
 }
 
-.img-1-3 .img-4-2 {
+.img-4-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -874,20 +925,20 @@ body {
   background-position: center;
 }
 
-.img-1-3 .img-4-2:hover {
+.img-4-2:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   z-index: 2;
   outline: 1rem solid white;
 }
 
-.img-1-3 .img-4-2:not(:hover) {
+.img-4-2:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
 }
 
-.img-1-3 .b-words-1:active, .img-1-3 :visited, .img-1-3 :link {
+.b-words-1:active, :visited, :link {
   font-family: 'Oswald', sans-serif;
   font-size: 6rem;
   color: white;

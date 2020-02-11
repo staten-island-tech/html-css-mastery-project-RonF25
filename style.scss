@@ -149,6 +149,15 @@ body {
                 2px -2px 0 #000,
                 -2px 2px 0 #000,
                 2px 2px 0 #000;
+    @include laptop {
+        font-size: 5rem;
+    }
+    @include tablet {
+        font-size: 4rem;
+    }
+    @include phone {
+        font-size: 3rem;
+    }
                 
 
 }
@@ -180,6 +189,7 @@ body {
         height: 20rem;
         width: 100%;
         margin: 0.5rem;
+        flex-direction: column;
     }
 }
 .img-1:hover {
@@ -246,6 +256,7 @@ body {
         height: 20rem;
         width: 100%;
         margin: 0.5rem;
+        flex-direction: column;
     }
 }
 .img-1-2:hover {
@@ -311,7 +322,24 @@ body {
         height: 20rem;
         width: 100%;
         margin: 0.5rem;
-    
+        flex-direction: column;
+    }
+}
+
+@include laptop {
+    height: 50rem;
+    width: 30rem;
+}
+@include tablet {
+    height: 50rem;
+    width: 25rem;
+    margin: 0.5rem;
+}
+@include phone {
+    height: 20rem;
+    width: 100%;
+    margin: 0.5rem;
+    flex-direction: column;
 }
 .img-1-3:hover {
     transform: scale(1.3);
@@ -352,15 +380,16 @@ body {
     display: flex;
     justify-content: space-around;
     transition: 0.7s all;
+     @include phone {
+        flex-direction: column;
+    }
     @include laptop {
         
     }
     @include tablet {
         
-    }
-    @include phone {
-        flex-direction: column;
-    }
+    } 
+    
 }
 /*.img-content-1:hover {
     transform: scale(1.3);
@@ -630,7 +659,7 @@ body {
                 2px 2px 0 #000;
     text-decoration: none; 
     }
-}
+
 
 
 
