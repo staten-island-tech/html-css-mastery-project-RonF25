@@ -583,12 +583,48 @@ body {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
+@media (max-width: 950px) {
+  .content-title-1-1 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-title-1-1 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .content-title-1-1 {
+    font-size: 5rem;
+  }
+}
+
 .content-title-2-1 {
   font-family: 'Oswald', sans-serif;
   font-size: 6rem;
   color: white;
   opacity: 0.90;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+@media (max-width: 950px) {
+  .content-title-2-1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-title-2-1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .content-title-2-1 {
+    font-size: 3rem;
+  }
 }
 
 .img-content-2 {

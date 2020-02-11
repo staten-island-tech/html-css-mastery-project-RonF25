@@ -409,6 +409,15 @@ body {
                 2px -2px 0 #000,
                 -2px 2px 0 #000,
                 2px 2px 0 #000;
+     @include laptop {
+        font-size: 7rem;
+    }
+    @include tablet {
+        font-size: 6rem;
+    }
+    @include phone {
+        font-size: 5rem;
+    }           
     
 }
 .content-title-2-1 {
@@ -420,6 +429,16 @@ body {
                 2px -2px 0 #000,
                 -2px 2px 0 #000,
                 2px 2px 0 #000;
+    @include laptop {
+        font-size: 5rem;
+    }
+    @include tablet {
+        font-size: 4rem;
+    }
+    @include phone {
+        font-size: 3rem;
+    }          
+                
 }
 .img-content-2 {
     display: flex;
