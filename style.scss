@@ -102,6 +102,20 @@ body {
     flex-direction: column;
     text-align: center;
 }
+.content-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+.img-content-2 {
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s all;
+    flex-direction: column;
+    align-items: center;
+}
+
 .back1-1 {
     background-color: color(bluebruh);
     height: 100rem;
@@ -457,8 +471,8 @@ body {
 .img-2 {
     display: flex;
     background-image: url("img/Carpathian-Mountains.jpg");
-    height: 50rem;
-    width: 30rem;
+    height: 20rem;
+    width: 50%;
     align-items: center;
     font-family: 'Oswald', sans-serif;
     font-size: 5rem;
@@ -469,6 +483,7 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    margin: 1.5rem;
     @include laptop {
         height: 50rem;
         width: 30rem;
@@ -497,8 +512,8 @@ body {
 .img-2-2 {
     display: flex;
     background-image: url("img/Dnieper.jpg");
-    height: 50rem;
-    width: 30rem;
+    height: 20rem;
+    width: 50%;
     align-items: center;
     font-family: 'Oswald', sans-serif;
     font-size: 5rem;
@@ -509,6 +524,7 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    margin: 1.5rem;
     @include laptop {
         height: 50rem;
         width: 30rem;
@@ -537,8 +553,8 @@ body {
 .img-2-3 {
     display: flex;
     background-image: url("img/Sea-of-Azov.jpg");
-    height: 50rem;
-    width: 30rem;
+    height: 20rem;
+    width: 50%;
     align-items: center;
     font-family: 'Oswald', sans-serif;
     font-size: 5rem;
@@ -549,6 +565,8 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    margin: 1.5rem;
+    
     @include laptop {
         height: 50rem;
         width: 30rem;
@@ -589,6 +607,7 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    border-radius: 10rem;
     @include laptop {
         height: 50rem;
         width: 30rem;
@@ -693,6 +712,20 @@ body {
 .img-3-3:not(:hover) {
     transform: scale(1.0);
     opacity: 0.9;
+}
+.img-content-4 {
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s all;
+    @include phone {
+        flex-direction: column;
+    }
+    @include laptop {
+        
+    }
+    @include tablet {
+        
+    } 
 }
 .img-4 {
     display: flex;

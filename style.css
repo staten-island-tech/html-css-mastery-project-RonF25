@@ -148,6 +148,36 @@ body {
   text-align: center;
 }
 
+.content-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.img-content-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: 0.7s all;
+  transition: 0.7s all;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .back1-1 {
   background-color: #005BBB;
   height: 100rem;
@@ -651,8 +681,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-image: url("img/Carpathian-Mountains.jpg");
-  height: 50rem;
-  width: 30rem;
+  height: 20rem;
+  width: 50%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -671,6 +701,7 @@ body {
   -webkit-transition: 0.7s all;
   transition: 0.7s all;
   background-position: center;
+  margin: 1.5rem;
 }
 
 @media (max-width: 950px) {
@@ -718,8 +749,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-image: url("img/Dnieper.jpg");
-  height: 50rem;
-  width: 30rem;
+  height: 20rem;
+  width: 50%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -738,6 +769,7 @@ body {
   -webkit-transition: 0.7s all;
   transition: 0.7s all;
   background-position: center;
+  margin: 1.5rem;
 }
 
 @media (max-width: 950px) {
@@ -785,8 +817,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-image: url("img/Sea-of-Azov.jpg");
-  height: 50rem;
-  width: 30rem;
+  height: 20rem;
+  width: 50%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -805,6 +837,7 @@ body {
   -webkit-transition: 0.7s all;
   transition: 0.7s all;
   background-position: center;
+  margin: 1.5rem;
 }
 
 @media (max-width: 950px) {
@@ -872,6 +905,7 @@ body {
   -webkit-transition: 0.7s all;
   transition: 0.7s all;
   background-position: center;
+  border-radius: 10rem;
 }
 
 @media (max-width: 950px) {
@@ -1046,6 +1080,25 @@ body {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 0.9;
+}
+
+.img-content-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: 0.7s all;
+  transition: 0.7s all;
+}
+
+@media (max-width: 375px) {
+  .img-content-4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .img-4 {
