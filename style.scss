@@ -503,7 +503,7 @@ body {
 .img-2:hover {
     transform: scale(1.3);
     z-index: 2;
-    outline: 1rem solid white;
+    filter: grayscale(100%);
 }
 .img-2:not(:hover) {
     transform: scale(1.0);
@@ -544,7 +544,7 @@ body {
 .img-2-2:hover {
     transform: scale(1.3);
     z-index: 2;
-    outline: 1rem solid white;
+    filter: grayscale(100%);;
 }
 .img-2-2:not(:hover) {
     transform: scale(1.0);
@@ -586,7 +586,7 @@ body {
 .img-2-3:hover {
     transform: scale(1.3);
     z-index: 2;
-    outline: 1rem solid white;
+    filter: grayscale(100%);
 }
 .img-2-3:not(:hover) {
     transform: scale(1.0);
@@ -627,7 +627,7 @@ body {
 .img-3:hover {
     transform: scale(1.3);
     z-index: 2;
-    outline: 1rem solid white;
+    box-shadow: 2rem 4rem #888888;
 }
 .img-3:not(:hover) {
     transform: scale(1.0);
@@ -648,6 +648,7 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    border-radius: 10rem;
     @include laptop {
         height: 50rem;
         width: 30rem;
@@ -667,7 +668,7 @@ body {
 .img-3-2:hover {
     transform: scale(1.3);
     z-index: 2;
-    outline: 1rem solid white;
+    box-shadow: 2rem 4rem #888888;
 }
 .img-3-2:not(:hover) {
     transform: scale(1.0);
@@ -688,6 +689,7 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    border-radius: 10rem;
     @include laptop {
         height: 50rem;
         width: 30rem;
@@ -707,7 +709,7 @@ body {
 .img-3-3:hover {
     transform: scale(1.3);
     z-index: 2;
-    outline: 1rem solid white;
+    box-shadow: 2rem 4rem #888888;
 }
 .img-3-3:not(:hover) {
     transform: scale(1.0);
@@ -717,6 +719,8 @@ body {
     display: flex;
     justify-content: space-around;
     transition: 0.7s all;
+    flex-direction: column;
+    align-items: center;
     @include phone {
         flex-direction: column;
     }
@@ -729,9 +733,9 @@ body {
 }
 .img-4 {
     display: flex;
-    background-image: url("img/Plane-2.jpg");
-    height: 50rem;
-    width: 30rem;
+    background-image: url("img/Plane.jpg");
+    height: 20rem;
+    width: 50%;
     align-items: center;
     font-family: 'Oswald', sans-serif;
     font-size: 5rem;
@@ -742,6 +746,8 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    border-radius: 30rem;
+    margin: 10rem;
     @include laptop {
         height: 50rem;
         width: 30rem;
@@ -762,7 +768,7 @@ body {
 .img-4:hover {
     transform: scale(1.3);
     z-index: 2;
-    outline: 1rem solid white;
+    filter: grayscale(100%);
 }
 .img-4:not(:hover) {
     transform: scale(1.0);
@@ -792,8 +798,8 @@ body {
   .img-4-2 {
     display: flex;
     background-image: url("img/Flag.jpg");
-    height: 50rem;
-    width: 30rem;
+    height: 20rem;
+    width: 50%;
     align-items: center;
     font-family: 'Oswald', sans-serif;
     font-size: 5rem;
@@ -804,6 +810,8 @@ body {
     justify-content: center;
     transition: 0.7s all;
     background-position: center;
+    border-radius: 30rem;
+    margin: 10rem;
     @include laptop {
         height: 50rem;
         width: 30rem;
@@ -823,7 +831,7 @@ body {
   .img-4-2:hover {
     transform: scale(1.3);
     z-index: 2;
-    outline: 1rem solid white;
+    filter: grayscale(100%);
   }
   .img-4-2:not(:hover) {
     transform: scale(1.0);
